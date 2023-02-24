@@ -42,6 +42,3 @@ def deploy():
 
     # ensure all users are following themselves
     User.add_self_follows()
-
-
-deploy()
