@@ -23,7 +23,7 @@ class Config:
 
     MAIL_DEFAULT_SENDER = os.getenv("MAIL_DEFAULT_SENDER")
 
-    FLASKY_ADMIN = os.getenv("FLASKY_ADMIN")
+    FLASKY_ADMIN = os.getenv("FLASKY_ADMIN", "admin@admin.com")
 
     FLASKY_POSTS_PER_PAGE = 15
 

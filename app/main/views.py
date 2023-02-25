@@ -311,7 +311,7 @@ def for_admin_only():
     return "You are administrator!"
 
 
-@main.route("/moderate")
+@main.route("/moderator")
 @login_required
 @moderator_required
 def for_moderators_only():
